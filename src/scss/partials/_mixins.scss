@@ -1,0 +1,47 @@
+$primary-color: #231f20;
+$primary-color-dark: #231f20;
+$secondary-color: #808184;
+$body-background-color: #ffffff;
+$nav-link-color:#ffffff;
+$black: #000;
+$main-background-color: #808184;
+$white-text:#ffffff;
+$footer-color: #808184;
+$req-app-form-bg: #808184;
+
+
+$screen-lg-min: 1000px;
+$screen-lg-max: ($screen-lg-min - 1);
+$screen-md-min: 992px;
+$screen-md-max: ($screen-md-min - 1);
+$screen-sm-min: 768px;
+$screen-sm-max: ($screen-sm-min - 1);
+$screen-xsm-min: 576px;
+$screen-xsm-max: ($screen-xsm-min - 1);
+
+.container{
+	max-width: 1030px!important;
+}
+/* helper CSS */
+.whiteText{
+	color: $white-text;
+}
+
+.mainBackgroundColor{
+	background-color: $main-background-color;
+}
+.primarycolor{
+	color: $primary-color;
+}
+.secondarycolor{
+	color: $secondary-color;
+}
+.primaryBg {
+    background: $primary-color;
+    h1,h2,h3,h4,h5,h6,p {
+        color: $white-text;
+    }
+}
+.secondaryBg {
+    background: $secondary-color;
+}

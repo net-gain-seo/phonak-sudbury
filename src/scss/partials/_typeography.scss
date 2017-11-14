@@ -1,0 +1,50 @@
+body{
+			font-family: 'Lato', sans-serif, arial;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+		margin-bottom: .75em;
+		font-family: 'Lato', sans-serif, arial;
+}
+
+h1{
+		font-size: 30px;
+}
+h2{
+		font-size: 27px;
+}
+h3{
+		font-size: 24px;
+}
+h4{
+		font-size: 22px;
+}
+h5{
+		font-size: 20px;
+}
+h6{
+			font-size: 18px;
+}
+p{
+		font-family: 'Lato', sans-serif, arial;
+		font-size: 20px;
+		font-weight: 300;
+}
+ul{
+	 padding-left: 20px;
+	li{
+	font-family: 'Lato', sans-serif, arial;
+	margin-bottom: 0px!important;
+  font-weight: normal!important;
+  font-size: 1rem!important;
+  color: black!important;
+	}
+}
+ol{
+	li{
+	font-family: 'Lato', sans-serif, arial;
+	}
+}
+a {
+	color: $primary-color;
+	text-decoration: none;
+}

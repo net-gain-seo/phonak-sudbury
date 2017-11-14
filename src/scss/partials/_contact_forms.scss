@@ -1,0 +1,264 @@
+.greybackground{
+    color: white;
+  h4{
+      margin-top: 40px;
+      margin-bottom: 25px;
+  }
+  form{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  div{
+      margin-bottom: 10px;
+    }
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    padding: 5px 10px;
+    background-color: white;
+    font-family: inherit;
+    color: #86888b;
+    max-width: 100%;
+    border: 0px solid;
+    width: 100%;
+}
+
+.sliderbutton {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px!important;
+    line-height: 1.5!important;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.sliderbutton:hover {
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+}
+
+.formbutton {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    padding: 5px 30px 5px 30px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.formbutton:hover {
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+}
+
+.HearingForm input[type="text"], .HearingForm input[type="email"], .HearingForm input[type="number"], .HearingForm textarea, .HearingForm select {
+    padding: 10px;
+    background-color: white;
+    font-family: inherit;
+    color: #86888b;
+    font-size: 22px;
+    max-width: 100%;
+    border: 0px solid;
+    width: 100%;
+}
+.HearingForm .g-recaptcha{
+  transform:scale(0.70);
+  -webkit-transform:scale(0.70);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+}
+.HearingForm .formbutton {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    padding: 12px 40px 12px 40px;
+    margin-top: 0px;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    margin-left: 15px;
+}
+.HearingForm .formbutton:hover {
+    background-color: $secondary-color;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.HearingForm .container > div {
+    padding: 40px 0;
+}
+.rowflex {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+}
+.col-xs {
+    -ms-flex-preferred-size: 16.66666667%;
+    flex-basis: 19%;
+    max-width: 19%;
+    margin-left: 1%;
+    height: 55px;
+}
+.contacttitle{
+  padding-bottom: 15px;
+}
+.form-btn-secondary {
+    background: $white-text;
+    color: $secondary-color;
+    padding: 15px 40px 15px 40px;
+    font-weight: 300;
+    border: 1px solid $secondary-color;
+    border-radius: 0;
+    margin-top: 15px;
+
+    &:hover {
+        cursor: pointer;
+        background: $secondary-color;
+        color: $white-text;
+    }
+}
+.request-appointment-form {
+    padding: 40px 0 30px;
+    background: $req-app-form-bg;
+    color: $white-text;
+    .bannerForm {
+        div {
+            width: 19%;
+            display: inline-block;
+            margin: 0 0.5%;
+        }
+    }
+    input {
+        padding: 20px 0;
+        text-indent: 20px;
+
+        &[type="submit"] {
+            margin-top: 0;
+            margin-left: 20px;
+            width: 200px;
+            text-indent: 0;
+            padding: 22px 0;
+        }
+    }
+    .g-recaptcha {
+        > div {
+            transform: scale(0.75);
+            transform-origin: 0 100%;
+            margin-top: -18px;
+        }
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(0.65);
+                margin-top: -17px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px) {
+    .request-appointment-form {
+        .bannerForm {
+            > div {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .g-recaptcha {
+            > div {
+                transform: translateX(62%) scale(1);
+                margin-top: 1px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 905px) and (min-width: 768px) {
+    .main-captcha {
+        transform-origin: 0 0;
+        transform: scale(0.7);
+    }
+    .form-btn-secondary {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: translateX(33%) scale(1);
+            }
+        }
+    }
+}
+@media only screen and (max-width: 575px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(1);
+
+                iframe {
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(0.66);
+                margin-bottom: 10px;
+                margin-left: -2px;
+            }
+        }
+        .bannerForm {
+            > div {
+                text-align: left;
+                &:nth-child(4) {
+                    margin-top: -27px;
+                }
+            }
+        }
+        input {
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            margin-left: 0;
+        }
+    }
+}
+@media only screen and (max-width: 350px) {
+    .main-captcha {
+        transform-origin: 0 0;
+        transform: scale(0.8);
+    }
+}

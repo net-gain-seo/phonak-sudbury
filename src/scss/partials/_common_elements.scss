@@ -1,0 +1,276 @@
+.pageheading {
+    padding: 50px 0px;
+}
+.dropshadow{
+  -moz-box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+}
+.zindex{
+  z-index: 999999999999999;
+}
+.pagetitle {
+    color: #006DB6;
+    font-size: 1.5rem;
+}
+.smallgrey{
+  font-size: 16px;
+  color: $secondary-color;
+}
+.needbatteries .container>div {
+    padding: 40px 0;
+}
+.Hearingtestsection{
+  position: absolute;
+  z-index: 9999999999999;
+  top: 160px;
+  right: 25px;
+  text-align: right;
+  h2{
+    font-size: 38px;
+    color: white;
+    font-family: 'roboto', 'Lato', Arial;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  h4{
+    font-size: 25px;
+    color: white;
+    font-family: 'roboto', 'Lato', Arial;
+    font-weight: bold;
+    text-align: right;
+  }
+  .button{
+    border-radius: 0px;
+    border: 0px;
+    float: right;
+    padding: 5px 25px 5px 25px;
+  }
+  .button:hover{
+    border-radius: 0px;
+    border: 0px;
+    float: right;
+    padding: 5px 25px 5px 25px;
+    background-color: $secondary-color;
+  }
+}
+.TBborder{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.featuredproduct{
+    background-color: black;
+    width: 270px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'roboto', 'Lato', Arial;
+}
+.HearingForm{
+  background-image: url('http://209.126.119.193/~sudburyaudiology/wp-content/uploads/2017/11/GreyBackground.jpg');
+  background-size: cover;
+}
+.homeform{
+  background-color: $secondary-color;
+  color: white;
+  padding: 40px 60px;
+  margin: -25px 0px;
+  label{
+    color: white;
+    font-family: 'roboto', 'Lato', Arial;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .wpcf7-submit.button{
+    font-size: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  .wpcf7-submit.button:hover{
+    background-color: $secondary-color;
+    cursor: pointer;
+  }
+}
+.Pagebanner {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.space-between{
+  justify-content: space-between!important;
+}
+.homeservices .col-lg-4{
+  max-width: 255px!important;
+}
+.Pagebanner .col {
+    padding: 8.5rem 0;
+    float: left;
+    display: table;
+}
+.text-align-center{
+    text-align: center;
+}
+.bannertitle {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.blackstatement {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding: 40px 0px;
+}
+.whitestatement {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+.numberlist {
+    padding-left: 20px;
+}
+.numberlist li {
+    margin-bottom: 10px;
+}
+.aligncontent{
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+}
+.fifty-fifty-section-background {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin: 60px 0px;
+    max-height: 480px;
+    min-height: 480px;
+}
+
+.d-flex {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.fifty-percent-section.white-background {
+    width: 495px;
+    height: 100%;
+    background-color: white;
+}
+
+.container.padding0 {
+    padding: 0px;
+}
+
+.alignimage {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.book_now_banner .container>div {
+    padding: 10px 0;
+}
+.book-appointment {
+    text-transform: uppercase;
+
+    p {
+        font-size: 1.5rem;
+        color: $white-text;
+        margin: 4px 0 0;
+    }
+    .col-md-8 {
+        text-align: right;
+    }
+    .col-md-4 {
+        text-align: left;
+    }
+    .btn-secondary {
+        padding: 5px 20px 5px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 0;
+    }
+    .btn-primary {
+        padding: 5px 20px 5px 20px;
+    }
+}
+.ares.nav-dir-horizontal.nav-pos-ver-center .tp-bullet-title, .ares.nav-dir-horizontal.nav-pos-ver-bottom .tp-bullet-title {
+    display: none;
+}
+.ares .tp-bullet:hover, .ares .tp-bullet.selected {
+    background: $primary-color!important;
+}
+.ares .tp-bullet {
+    background: $main-background-color!important;
+}
+.servicesection span {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.servicesection a {
+    padding: 5px 20px 5px 20px;
+    float: right;
+    background-color: #86888B;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.servicesection a:hover {
+    padding: 5px 20px 5px 20px;
+    float: right;
+    background-color: white;
+    color: #86888B;
+    border: 1px solid #86888B;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.servicerow h5 {
+    font-weight: bold;
+    margin-top: 75px;
+}
+.servicesection{
+  background-color: $primary-color;
+  border: 0px;
+  border-radius: 0px;
+  padding: 20px;
+  margin-bottom: 10px;
+
+  p{
+    margin-bottom: 0px;
+  }
+}
+.greybackground{
+  background-color: $main-background-color;
+}
+.padding50 .container > div {
+    padding: 50px 0;
+}
+.padding50 {
+    padding: 50px 0;
+}
+#page_sidebar {
+    background-color: $main-background-color;
+    padding: 40px 10px;
+    margin: -50px 0px;
+}
+.blogPosts #page_sidebar .widget {
+    list-style-type: none;
+    color: white;
+    margin-top: 40px;
+    ul li {
+        color: $primary-color!important;
+    }
+}

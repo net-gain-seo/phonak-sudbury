@@ -1,0 +1,125 @@
+.footer-right{
+    float: right;
+    text-align: right;
+    color: white;
+    p{
+    color: white;
+    }
+}
+.socialalign{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.socialalign a{
+  margin-left: 5px;
+}
+.footerlogo{
+  margin-bottom: 20px;
+}
+#footerBottom .container > div {
+  padding: 25px 0 0px 0px;
+}
+#footercopy{
+  font-weight: normal;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+footer .textwidget {
+  color: white;
+  *{
+    color: white;
+  }
+  p{
+    font-weight: normal;
+  }
+}
+.footer-main-menu{
+  margin-top: 60px;
+}
+footer {
+  display: block;
+  clear: both;
+  position: relative;
+  -moz-box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+    #footerTop {
+        background: $white-text;
+        padding: 25px 0 10px;
+
+        .footer-right {
+            text-align: right;
+        }
+    }
+
+    #footerBottom {
+        background: $footer-color;
+
+        #footer-navigation {
+            text-transform: uppercase;
+            float: right;
+        }
+        #footerCopyInfo {
+            padding: 10px 0 30px;
+
+            #footercopy {
+                margin-bottom: 0;
+                text-align: right;
+                color: $white-text;
+                padding-bottom: 20px;
+                float: left;
+            }
+        }
+    }
+    .footer-menu {
+        margin-bottom: 30px;
+
+        li {
+            display: inline-block;
+
+            a {
+                color: $white-text;
+                padding: 10px 15px;
+                font-size: 0.875rem;
+
+                &:last-child {
+                    padding: 10px 0 10px 15px;
+                }
+                &:hover {
+                    color: $white-text;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    footer {
+        #footerTop {
+            .footer-right {
+                text-align: left;
+            }
+        }
+        #footerBottom {
+            #footerCopyInfo {
+                #footercopy {
+                    float: none;
+                    text-align: center;
+                }
+            }
+            #footer-navigation {
+                float: none;
+                text-align: center;
+                .footer-menu {
+                    padding: 0;
+                    margin-bottom: 0;
+
+                    a {
+                        padding: 10px 8px;
+                    }
+                }
+            }
+        }
+    }
+}
