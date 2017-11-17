@@ -50,6 +50,7 @@
                     font-family: 'Lato', arial, sans-serif;
 
                     &:hover {
+                        background: $secondary-color;
                         .dropdown-item {
                             background: $primary-color;
                         }
@@ -92,13 +93,18 @@
         }
     }
 }
+a.dropdown-item:hover{
+    background-color: $secondary-color!important;
+}
 .navbar #menu-main-menu > li:last-child {
     margin-right: -15px;
 }
 .hide-screen-lg-min{
   display: none;
 }
-
+#menu-footer-menu li:last-child{
+  padding-right: 0px;
+}
 #menu-footer-menu{
   float: right;
   display: inline-block;

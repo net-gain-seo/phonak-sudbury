@@ -19,7 +19,7 @@
 }
 #floatingAppointment {
     position: fixed;
-    right: -95px;
+    right: -110px;
     top: 45%;
     z-index: 999;
     margin-bottom: 0px;
@@ -33,6 +33,7 @@
         background: $white-text;
         border: 1px solid $secondary-color;
         color: $secondary-color;
+        letter-spacing: 2px;
         &:hover {
             background: $secondary-color;
             color: $white-text;

@@ -38,6 +38,7 @@ $page_sidebar = 'default-sidebar';
 			</main>
 		</div>
 	</div>
+<?php echo do_shortcode( '[HearingBannerForm]' ); ?>
 </section>
 
 <?php get_footer(); ?>

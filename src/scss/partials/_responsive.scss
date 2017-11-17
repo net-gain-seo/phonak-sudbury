@@ -39,14 +39,52 @@
 }
 
 @media only screen and (max-width: $screen-md-min) {
+    .Hearingtestsection {
+      position: absolute;
+      z-index: 9999999999999;
+      top: 30px;
+      right: 25px;
+      text-align: right;
+    }
+    .contactpage div.wpcf7 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .padding50 {
+        padding: 50px 15px;
+    }
+    .padding0 {
+        padding: 0px 15px !important;
+    }
     #footercopy.right{
       float: none;
+    }
+    .socialIcons {
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        width: 135px;
+    }
+    .extras {
+        text-align: center;
+        float: right;
     }
     #menu-footer-menu {
         float: none;
         display: inline-block;
         width: 100%;
         text-align: center;
+    }
+    .contactButtons {
+        text-align: center;
+        float: right;
+        margin-bottom: 10px;
+    }
+    .contactButtons #quizButton {
+        float: right;
+        margin-left: 0;
     }
     .homeform {
         margin: 0px 0px;
@@ -119,6 +157,42 @@
 }
 
 @media only screen and (max-width: $screen-sm-max) {
+    .socialIcons {
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+    .extras {
+        text-align: center;
+        float: none;
+        display: block;
+        margin: auto;
+        width: 130px;
+        clear: both;
+        margin-top: 60px;
+    }
+    .socialIcons {
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+        margin: auto;
+        display: block;
+        width: 135px;
+    }
+    #callToAction p {
+        font-weight: normal;
+        line-height: 36px;
+        text-align: center;
+        .phone {
+          font-size: 30px;
+          float: none;
+          color: black;
+          margin-top: 0px;
+          margin-left: 0px;
+      }
+    }
     .homeservices .col-lg-4 {
         max-width: 100%!important;
     }
@@ -133,9 +207,46 @@
     #floatingAppointment{
         display: none;
     }
+    .wp-image-30{
+        margin-bottom: -15px;
+    }
 }
 
 @media only screen and (max-width: $screen-xsm-max) {
+      .question {
+          height: auto!important;
+      }
+      .quiz .next {
+          position: relative!important;
+          display: block!important;
+      }
+      .ngslider {
+          width: 100% !important;
+          height: -webkit-fill-available;
+      }
+      .Hearingtestsection {
+          display: none;
+      }
+      .socialIcons {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+        margin: auto;
+        display: block;
+        width: 135px;
+        clear: both;
+    }
+    .contactButtons {
+        text-align: center;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contactButtons #quizButton {
+        float: none;
+        margin-left: 0;
+        margin: auto;
+    }
     #headerTop .right {
         float: none;
         margin-top: 10px;
