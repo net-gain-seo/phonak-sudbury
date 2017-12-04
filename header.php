@@ -41,7 +41,7 @@ if(get_option('modular_wp_site_style') == "Boxed"){ echo '<div id="modular_site_
 	                <a href="<?php echo get_option('hearing_quiz_url'); ?>" class="btn btn-secondary" id="quizButton" ><?php echo get_option('hearing_quiz_title'); ?></a>
 	            </div>
               <div class="socialIcons">
-                <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook.png"/></a><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter.png"/></a><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/linkedin.png"/></a>
+
               </div>
 		        <div class="extras">
 			        <a href="#" id="incfont" title="Increase font size" class="plusfont">A+</a><a href="#" id="decfont" title="Decrease font size" class="minusfont">A-</a>
