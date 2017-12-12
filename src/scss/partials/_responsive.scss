@@ -154,6 +154,13 @@
         float: left;
         margin-top: 3px;
     }
+     .contactButtons #quizButton {
+        float: none;
+        margin-left: 0;
+        margin: auto;
+    }
+
+    
 }
 
 @media only screen and (max-width: $screen-sm-max) {
@@ -167,10 +174,10 @@
         text-align: center;
         float: none;
         display: block;
-        margin: auto;
+        margin: 10px auto;
         width: 130px;
         clear: both;
-        margin-top: 60px;
+        height:47px;
     }
     .socialIcons {
         float: left;
@@ -181,18 +188,27 @@
         display: block;
         width: 135px;
     }
-    #callToAction p {
-        font-weight: normal;
-        line-height: 36px;
-        text-align: center;
-        .phone {
-          font-size: 30px;
-          float: none;
-          color: black;
-          margin-top: 0px;
-          margin-left: 0px;
-      }
+    #callToAction{
+        margin-top:0px;
+        p {
+            font-weight: normal;
+            line-height: 36px;
+            text-align: center;
+            .phone {
+              background: black;
+            color: #fff;
+            border-radius: 20px;
+            padding: 5px;
+            text-decoration: none;
+            width: 230px;
+            font-size: 20px;
+            margin: 0 auto;
+            float:none;
+            display:block;
+          }
+        }
     }
+
     .homeservices .col-lg-4 {
         max-width: 100%!important;
     }
@@ -210,19 +226,21 @@
     .wp-image-30{
         margin-bottom: -15px;
     }
+    .contactButtons {
+        text-align: center;
+        float: none;
+        margin-bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width: $screen-xsm-max) {
       .question {
-          height: auto!important;
+        height: auto!important;
       }
       .quiz .next {
           position: relative!important;
           display: block!important;
-      }
-      .ngslider {
-          width: 100% !important;
-          height: -webkit-fill-available;
       }
       .Hearingtestsection {
           display: none;
@@ -237,16 +255,8 @@
         width: 135px;
         clear: both;
     }
-    .contactButtons {
-        text-align: center;
-        float: none;
-        margin-bottom: 10px;
-    }
-    .contactButtons #quizButton {
-        float: none;
-        margin-left: 0;
-        margin: auto;
-    }
+    
+    
     #headerTop .right {
         float: none;
         margin-top: 10px;
