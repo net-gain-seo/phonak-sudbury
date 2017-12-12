@@ -160,7 +160,12 @@
         margin: auto;
     }
 
-    
+    .d-flex{
+        flex-wrap: wrap;
+        .col{
+            min-width:100%;
+        }
+    }
 }
 
 @media only screen and (max-width: $screen-sm-max) {
