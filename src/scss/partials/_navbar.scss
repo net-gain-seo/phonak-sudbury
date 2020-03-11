@@ -5,7 +5,7 @@
     float: right;
     padding: 0px;
 
-    #menu-main-menu {
+    .navbar-nav {
         margin-bottom: 0;
 
         > li {
@@ -96,7 +96,7 @@
 a.dropdown-item:hover{
     background-color: $secondary-color!important;
 }
-.navbar #menu-main-menu > li:last-child {
+.navbar .navbar-nav > li:last-child {
     margin-right: -15px;
 }
 .hide-screen-lg-min{
@@ -145,7 +145,7 @@ a.dropdown-item:hover{
         margin: auto;
         display: block;
     }
-	#mainMenu{
+	.navbar-nav{
 		&.collapse{
 			position: fixed;
 		    background: $primary-color;
@@ -171,7 +171,7 @@ a.dropdown-item:hover{
 			left: 0px;
 		}
 
-		>#menu-main-menu{
+		>.navbar-nav{
 			li{
 				margin: 0px;
 				padding: 0;
@@ -217,7 +217,7 @@ a.dropdown-item:hover{
         }
 	}
 
-	#mainMenu li{
+	.navbar-nav li{
 		border-top: 1px solid #000000;
 		border-bottom: 1px solid #292b2c;
 
