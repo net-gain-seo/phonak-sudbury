@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+<?php 
+global $lang;
+$lang = ICL_LANGUAGE_CODE;
+ ?>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,7 +42,16 @@ if(get_option('modular_wp_site_style') == "Boxed"){ echo '<div id="modular_site_
 
 	        <div class="right">
 	            <div class="contactButtons">
-	                <a href="<?php echo get_option('hearing_quiz_url'); ?>" class="btn btn-secondary" id="quizButton" ><?php echo get_option('hearing_quiz_title'); ?></a>
+					<a href="<?php echo get_option('hearing_quiz_url'); ?>" class="btn btn-secondary" id="quizButton" >
+						<?php //echo get_option('hearing_quiz_title'); ?>
+						<?php 
+							if ($lang == "fr") {
+								echo 'Questionnaire sur l’audition';
+							}else{
+								echo 'Hearing Quiz';
+							}
+						?>
+				</a>
 	            </div>
               <div class="socialIcons">
 

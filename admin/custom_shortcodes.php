@@ -93,10 +93,16 @@ add_shortcode('BannerContent', 'main_banner_content');
 
 //********************************************Book Today Form!!!!!!!!**********************************************************************//
 function book_today_form() {
+  global $lang;
+
     $booktodayform .=  '<div class="container-fluid HearingForm">';
       $booktodayform .=  '<div class="container">';
         $booktodayform .=  '<div class="row ">';
+          if ($lang == "fr") {
+            $booktodayform .=  do_shortcode('[contact-form-7 id="470" title="Quick Contact Form"]');
+          }else{
             $booktodayform .=  do_shortcode('[contact-form-7 id="81" title="Quick Contact Form"]');
+          }
         $booktodayform .=  '</div>';
       $booktodayform .=  '</div>';
     $booktodayform .=  '</div>';

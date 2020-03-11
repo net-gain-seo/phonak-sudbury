@@ -102,10 +102,12 @@ a.dropdown-item:hover{
 .hide-screen-lg-min{
   display: none;
 }
-#menu-footer-menu li:last-child{
+#menu-footer-menu li:last-child,
+#menu-footer-menu-french li:last-child{
   padding-right: 0px;
 }
-#menu-footer-menu{
+#menu-footer-menu,
+#menu-footer-menu-french{
   float: right;
   display: inline-block;
   width: 100%;

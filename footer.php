@@ -29,7 +29,13 @@
             ?>
           </div>
 					<div class="col col-12">
-						<p id="footercopy" class="right">Copyright© <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?></p>
+                        <?php  global $lang;
+                            if ($lang == "fr") { ?>
+                                <p id="footercopy" class="right">©Sudbury Audiology <?php echo date('Y'); ?> | Politique de confidentialité </p>
+                            <?php }else{ ?>
+                                <p id="footercopy" class="right">Copyright© <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?></p>
+                            <?php }
+                        ?>
 					</div>
 				</div>
 			</div>
